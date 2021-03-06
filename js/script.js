@@ -1,5 +1,5 @@
 {
-'use strict';
+  'use strict';
 
   const titleClickHandler = function(event){
     event.preventDefault();
@@ -44,12 +44,12 @@
   };
 
   const optArticleSelector = '.post',
-        optTitleSelector = '.post-title',
-        optTitleListSelector = '.titles';
+    optTitleSelector = '.post-title',
+    optTitleListSelector = '.titles';
 
-  function generateTitleLinks(){
+  const generateTitleLinks = function(){
 
-  /* [DONE] remove contents of titleList */
+    /* [DONE] remove contents of titleList */
 
     const titleList = document.querySelector(optTitleListSelector);
     titleList.innerHTML = '';
@@ -65,7 +65,7 @@
 
       /* [DONE] get the article id */
 
-      const articleId = article.getAttribute('id')
+      const articleId = article.getAttribute('id');
 
       /* [DONE] find the title element */
 
@@ -90,7 +90,7 @@
     for(let link of links){
       link.addEventListener('click', titleClickHandler);
     }
-  }
+  };
 
-generateTitleLinks();
+  generateTitleLinks();
 }
