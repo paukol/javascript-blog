@@ -41,6 +41,30 @@ body {
   }
 }
 
+.tag-size-5 {
+  font-size: 40px;
+  color: rgb(97, 7, 7);
+}
+
+.tag-size-4 {
+  font-size: 35px;
+  color: rgb(131, 21, 113);
+}
+
+.tag-size-3 {
+  font-size: 30px;
+  color: rgb(56, 13, 156);
+}
+
+.tag-size-2 {
+  font-size: 25px;
+  color:rgb(178, 206, 18)
+}
+
+.tag-size-1 {
+  font-size: 20px;
+  color:rgb(12, 180, 85)
+}
 /* Layout */
 
 .wrapper {
@@ -90,6 +114,13 @@ body {
     display: inline-block;
   }
 }
+.tags {
+  display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+}
+
 
 /* Authors */
 

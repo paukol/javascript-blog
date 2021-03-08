@@ -32,6 +32,31 @@ body {
   color: #777777;
 }
 
+.tag-size-5 {
+  font-size: 40px;
+  color: #610707;
+}
+
+.tag-size-4 {
+  font-size: 35px;
+  color: #831571;
+}
+
+.tag-size-3 {
+  font-size: 30px;
+  color: #380d9c;
+}
+
+.tag-size-2 {
+  font-size: 25px;
+  color: #b2ce12;
+}
+
+.tag-size-1 {
+  font-size: 20px;
+  color: #0cb455;
+}
+
 /* Layout */
 .wrapper {
   display: -ms-flexbox;
@@ -79,6 +104,17 @@ body {
 
 .list-horizontal li {
   display: inline-block;
+}
+
+.tags {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
 }
 
 /* Authors */
